@@ -65,6 +65,7 @@ function curlToPython(curl){
 		val = val.substr(0,val.length-1)
 		queryParams[key] = val
 	}
+	url = url.substr(0,url.indexOf("?"))
 	console.log(queryParams)
 	console.log(headers)
 	console.log(data)

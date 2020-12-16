@@ -1,0 +1,10 @@
+{
+	"manifest_version":2,
+	"name":"CURL2PY",
+	"version":"0.0.1",
+	"description":"See name",
+	"browser_action": {
+	   "default_popup": "./main.html"
+	  }
+
+}
